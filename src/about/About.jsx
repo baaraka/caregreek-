@@ -46,6 +46,25 @@ export default function About() {
           </p>
         </div>
       </div>
+      <div className="teamDiv">
+        <div className="teamHeading">
+          <h1 className="heading">Licenses</h1>
+          <p className="teamParagraph">
+            I am a full-stack web developer with strong knowledge of MongoDB,
+            node.js, Javascript and front end technologies such react, jquery,
+            Ejs and counting.Graduated University with degree in science of
+            information technology. Strong mathematics and programming
+            background.
+          </p>
+        </div>
+        <div className="teamImg">
+          <img
+            src="https://media.istockphoto.com/photos/cropped-shot-of-elderly-females-hands-picture-id1269847328?k=20&m=1269847328&s=612x612&w=0&h=1ql69bSb6GAwrsggPYsy_Fnw1YgL9k_8La0hNMa0SzI="
+            alt=""
+            className="teamImgItem"
+          />
+        </div>
+      </div>
     </div>
   );
 }
