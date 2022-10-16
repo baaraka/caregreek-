@@ -30,19 +30,20 @@ export default function About() {
         <div className="aboutUsItems">
           <h1 className="aboutUsItem">About Us</h1>
           <p className="aboutUsItemParagraph">
-            Professional iOS Developer,Fluent in Swift and Objective C
-            Programming languages. I am also a fullstack web developer with
-            strong knowledge of MongoDB, node.js, Javascript and front end
-            technologies such react, jquery, Ejs and and counting. Graduated
-            University with degree in Electrical & Electronics Engineering.
-            Strong mathematics and programming <hr />
-            Professional iOS Developer,Fluent in Swift and Objective C
-            Programming languages. I am also a fullstack web developer with
-            strong knowledge of MongoDB, node.js, <hr />
-            Professional iOS Developer,Fluent in Swift and Objective C
-            Programming languages. I am also a fullstack web developer with
-            strong knowledge of MongoDB, node.js, Javascript and front end
-            technologies such react, jquery, Ejs and and counting.
+            Caregreek International Limited Was Established In 2018 And Has Over
+            The Years Evolved To Become The Largest And Most Specialized
+            Cleaning Company In Abuja. It is One Of Wholly Citizen Owned
+            Commercial Cleaning Company In Nigeria. The Company Registration
+            Number Is RC1509998. It Has Extensive Experience In Cleaning All
+            Types Of Building Such AS Schools, Office, Industrial
+            Building(Premises), Hotels, Shopping Center, Government Offices,
+            Commercial Premises And Hospitals, Bank And Others. <hr /> The
+            Company's Success Lies In Its Ability To Train And Manage Hundred Of
+            Stuffs To Archive The Stringent Standard Demanded By Customers We
+            Serve In Nigeria. <hr /> Our Services Include Provision Of
+            Janitorial Services, Hygiene Supplies, Pest Control, Once
+            Off-Specialized Cleaning Office Plant Supplies And Landscaping And
+            Garden Services And Chemical Supplies.
           </p>
         </div>
       </div>
@@ -50,11 +51,13 @@ export default function About() {
         <div className="teamHeading">
           <h1 className="heading">Licenses</h1>
           <p className="teamParagraph">
-            I am a full-stack web developer with strong knowledge of MongoDB,
-            node.js, Javascript and front end technologies such react, jquery,
-            Ejs and counting.Graduated University with degree in science of
-            information technology. Strong mathematics and programming
-            background.
+            Caregreek Is Certified By Environmental Officers Registration
+            Council Of Nigeria (EHORECON), Federal Ministry Of Environment
+            (FMEnv) And National Environment Standards And Regulations
+            Enforcement Agency (NESREA) Which Has Determined That Caregreek
+            Meets The High Standards Set And Expected By The Regulators And That
+            The Company Is Committed To Make Faith Effort To Resolve Any
+            Consumer Issues.
           </p>
         </div>
         <div className="teamImg">
