@@ -5,7 +5,7 @@ export default function Home() {
     <div className="home">
       <div className="homeImg">
         <img
-          src="https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://img.freepik.com/premium-photo/woman-wearing-rubber-gloves-cleaning-kitchen-cabinets-surface-cleaning-concept_359031-20790.jpg?w=2000"
           alt=""
           className="homeImgItem"
         />
