@@ -10,20 +10,22 @@ export default function Home() {
           className="homeImgItem"
         />
       </div>
-      <div className="homeTitle">
-        <h1 className="homeTitleItem">About Us</h1>
-      </div>
-      <div className="homeList">
-        <ul className="homeListItem">
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-          <li>............</li>
-        </ul>
+      <div className="homeTitleTitle">
+        <div className="homeTitle">
+          <h1 className="homeTitleItem">About Us</h1>
+        </div>
+        <div className="homeList">
+          <ul className="homeListItem">
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+            <li>............</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
