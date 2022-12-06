@@ -1,33 +1,30 @@
-hr {
-  border: none;
-  padding-bottom: 15px;
-}
 .about {
   width: 100%;
   height: 100%;
-  top: 0;
   position: relative;
   background-color: rgb(246, 243, 240);
+}
+.aboutUsUs {
+  display: flex;
+  flex-direction: column;
 }
 .aboutUs {
   display: flex;
   width: 100%;
-  height: 30%;
-  padding-top: 70px;
+  height: 100%;
+  padding-top: 50px;
   align-items: center;
   justify-content: center;
 }
 .aboutUsItemSm {
-  float: left;
-  width: 480px;
+  width: 50%;
   position: relative;
-  left: 39px;
+  padding-left: 153px;
 }
 .aboutUsItems {
-  float: right;
-  width: 45%;
+  width: 50%;
   position: relative;
-  right: 15px;
+  right: 50px;
 }
 .aboutUsItem {
   font-family: montserrat serif;
@@ -42,7 +39,8 @@ hr {
 }
 .aboutUsItemParagraph {
   font-family: montserrat, sans-serif;
-  line-height: 30px;
+  line-height: 25px;
+  width: 545px;
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
@@ -80,6 +78,11 @@ hr {
 .div2 {
   padding-top: 50px;
 }
+hr {
+  border: none;
+  padding-bottom: 25px;
+}
+
 .teamDiv {
   width: 100%;
   height: 500px;
@@ -127,4 +130,87 @@ hr {
   border-radius: 20px;
   margin-left: 30px;
   margin-top: 60px;
+}
+
+/* RESPONSIVE */
+/* small devices (smartphones) */
+@media only screen and (max-width: 767px) {
+  .aboutUsUs {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutUs {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .aboutUsItemSm {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 160px;
+  }
+  .aboutImgItem {
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    width: 70px;
+  }
+  .img2 {
+    width: 70px;
+  }
+  .img3 {
+    width: 70px;
+  }
+  .aboutUsItems {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .aboutUsItemParagraph {
+    width: 100%;
+    font-size: 15px;
+  }
+  .aboutUsItem {
+    position: relative;
+    bottom: 370px;
+    padding-top: 10px;
+  }
+  .teamDiv {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .teamHeading {
+    height: 100%;
+    width: 100%;
+  }
+  .heading {
+    position: relative;
+    bottom: 100px;
+    right: 130px;
+  }
+  .teamParagraph {
+    position: relative;
+    top: 250px;
+    right: 130px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  .teamImg {
+    position: relative;
+    bottom: 310px;
+    margin-left: 50px;
+  }
+  .teamImgItem {
+    width: 250px;
+    height: 300px;
+  }
 }
